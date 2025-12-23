@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Girardin Tarby
+- PRÉNOM : Mathéo
+- GROUPE : C1
 - URL du site :
 - URL FIGMA :

@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: var(--light-purple);
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.header__menu {
+    margin-right: var(--margin-2);
+}
+
+.header__langue {
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.header__logo {
+    margin-left: var(--margin-2);
+}

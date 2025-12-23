@@ -1,0 +1,70 @@
+footer {
+    background-color: var(--dark-purple);
+    display: block;
+    margin: 0;
+    padding: var(--margin-1);
+    padding-top: var(--margin-2);
+    padding-bottom: var(--margin-2);
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer__presentation-text {
+    color: var(--white);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--m);
+}
+
+.footer__mailto {
+    margin-top: 0;
+    padding-top: 0;
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--footer-text);
+    text-decoration: underline;
+}
+
+.footer__link {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    margin-left: var(--margin-3);
+    margin-right: var(--margin-3);
+    padding: 0;
+    justify-content: space-between;
+}
+
+.footer__item-link {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Lato", sans-serif;
+    text-decoration: underline;
+}
+
+.footer__link-montbeliard {
+    text-decoration: none;
+    color: var(--white);
+    font-family: "Lato", sans-serif;
+    text-decoration: underline;
+}
+
+.footer__credit {
+    color: var(--white);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: var(--s);
+    text-align: center;
+}

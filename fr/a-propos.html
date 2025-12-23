@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <script type="module" src="../src/js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <a href="/fr/index.html">
+                    <img src="/assets/icon/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="header__langue">
+
+                <a href="/en/">
+                    <img src="/assets/icon/en.svg" alt="Navigate to the English version">
+                </a>
+            </div>
+            <div class="header__menu">
+                <button id="menuButton" type="button" aria-expanded="false" aria-controls="mainNav"
+                    aria-label="Ouvrir le menu">
+                    <img src="/assets/icon/menu.svg" alt="Bouton Menu">
+                </button>
+            </div>
+        </div>
+
+        <!-- MENU -->
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <div class="menu__header">
+                <a class="menu__logo" href="/fr/index.html">
+                    <img src="/assets/icon/logo.svg" alt="Logo">
+                </a>
+                <a class="langueMenu" href="/en/">
+                    <img src="/assets/icon/en.svg" alt="Navigate to the English version">
+                </a>
+                <button id="menuClose" class="menu__close" type="button" aria-label="Fermer le menu">
+                    <img src="/assets/icon/croixdesortiemenu.svg" alt="Fermer">
+                </button>
+            </div>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/lise.html">Lise Meitner</a>
+                </li>
+                <br>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/matilda.html">L’effet Matilda</a>
+                </li>
+                <br>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/theorie.html">La théorie de Lise Meitner</a>
+                </li>
+                <br>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/litterature.html">Les femmes de sciences dans la littérature</a>
+                </li>
+                <br>
+                <li class="menu__item">
+                    <a class="menu__link" href="/fr/film.html">Film de réhabilitation des figures féminines oubliées</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="contact__titre">
+            À propos
+        </h1>
+        <div class="contact__presentation">
+            <p class="contact__presentation-text">
+                Bienvenue sur ce site dédié à Lise Meitner, à l’effet Matilda et aux femmes de science trop souvent
+                oubliées. Je
+                m’appelle Mathéo Girardin Tarby, étudiant en première année en <a class="contact__presentation-link"
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">BUT MMi à
+                    Montbéliard.</a>
+                <br><br>
+                À travers ce projet, je souhaite mettre en lumière celles dont les découvertes ont marqué notre monde,
+                mais dont les
+                noms ont été effacés ou ignorés.
+                <br><br>
+                Vous trouverez ici des articles accessibles, documentés et engagés, qui mêlent biographie, analyse
+                historique et culture
+                populaire. Mon objectif est simple : faire connaître ces figures inspirantes, et contribuer à une
+                représentation plus
+                juste dans les récits scientifiques.
+                <br><br>
+                Merci de votre visite, et n’hésitez pas à me contacter pour échanger ou proposer des idées ci-dessous !
+            </p>
+        </div>
+        <form class="contact__form">
+            <div class="contact__firstname-wrapper">
+                <label for="firstname" class="contact__label">Prénom</label><br>
+                <input type="text" id="firstname" class="contact__input">
+            </div>
+            <div class="contact__lastname-wrapper">
+                <label for="lastname" class="contact__label">Nom</label><br>
+                <input type="text" id="lastname" class="contact__input">
+            </div>
+            <div class="contact__email-wrapper">
+                <label for="email" class="contact__label">E-mail</label><br>
+                <input type="text" id="email" class="contact__input">
+            </div>
+            <div class="contact__message-wrapper">
+                <label for="message" class="contact__label">Message</label><br>
+                <input type="text" id="message" class="contact__input4">
+            </div>
+            <button class="contact__submit-btn" type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__top">
+                <div class="footer__presentation-text">
+                    <p>Mathéo Girardin Tarby <br> MMI 1 Groupe 1</p>
+                </div>
+                <div class="footer__top--left">
+                    <a href="/fr/index.html">
+                        <img src="/assets/icon/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <a class="footer__mailto" href="mailto:matheo.girardin--tarby@edu.univ-fcomte.fr">
+                matheo.girardin--tarby@edu.univ-fcomte.fr
+            </a>
+            <ul class="footer__link">
+                <li><a class="footer__item-link" href="/fr/a-propos.html">A propos</a></li>
+                <li><a class="footer__item-link" href="/fr/autres-projets.html">Autres projets</a></li>
+                <li><a class="footer__item-link" href="/fr/glossaire.html">Glossaire</a></li>
+            </ul>
+            <div class="footer__credit">
+                <p>
+                    Projet réalisé en 2025 dans le cadre d’un exercice pédagogique au département
+                    <a class="footer__link-montbeliard"
+                        href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                        MMi de Montbéliard
+                    </a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
