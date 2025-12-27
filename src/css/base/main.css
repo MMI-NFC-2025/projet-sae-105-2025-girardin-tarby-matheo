@@ -9,7 +9,7 @@
 }
 
 h4 {
-    color: var(--light-purple);
+    color: var(--yellow);
     margin: var(--margin-1);
     font-family: "Playfair Display", serif;
     font-weight: 600;
@@ -30,7 +30,7 @@ h4 {
 
 /* Contact */
 h1 {
-    font-family: "Playfair Display";
+    font-family: "Lato", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -46,14 +46,14 @@ h1 {
 }
 
 .contact__label {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-size: var(--xl);
     font-weight: 400;
     color: var(--light-purple);
 }
 
 .contact__input {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-size: var(--xl);
     font-weight: 400;
     color: var(--black);
@@ -66,7 +66,7 @@ h1 {
 }
 
 .contact__input4 {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-size: var(--m);
     font-weight: 400;
     color: var(--black);
@@ -79,7 +79,7 @@ h1 {
 }
 
 .contact__submit-btn {
-    font-family: Poppins;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: var(--l);
@@ -107,10 +107,7 @@ h1 {
     margin-right: var(--margin-2);
 }
 
-.contact__firstname-wrapper,
-.contact__lastname-wrapper,
-.contact__email-wrapper,
-.contact__message-wrapper {
+.contact__form {
     display: block;
     flex-direction: column;
     margin-bottom: 0;

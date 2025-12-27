@@ -28,3 +28,8 @@ body.no-scroll {
 .header__logo {
     margin-left: var(--margin-2);
 }
+
+.clique {
+    color: var(--grey);
+}
+

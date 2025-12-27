@@ -54,7 +54,10 @@
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
     font-family: Playfair Display, serif;
-    font-size: var(--menu);
+    font-size: var(--xxl);
 }
 
+.menu__item {
+    margin-bottom: 25px;
+}
 

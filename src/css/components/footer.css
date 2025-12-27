@@ -68,3 +68,7 @@ footer {
     font-size: var(--s);
     text-align: center;
 }
+
+.clique {
+    color: var(--grey);
+}
