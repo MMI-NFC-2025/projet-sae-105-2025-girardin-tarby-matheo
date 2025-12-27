@@ -9,5 +9,5 @@
     height: auto;
     display: block;
     position: relative;
-    left: 7.5%;
+    margin-left: var(--margin-1);
 }

@@ -8,13 +8,23 @@
     font-size: var(--l);
 }
 
-h4 {
+.titre-vignette {
+    text-decoration: none;
     color: var(--yellow);
     margin: var(--margin-1);
     font-family: "Playfair Display", serif;
     font-weight: 600;
     font-style: normal;
     font-size: var(--l);
+    background-color: var(--light-purple);
+    padding: var(--margin-2);
+    padding-right: var(--margin-2);
+    margin-bottom: 0;
+    margin-top: 0;
+    line-break: auto;
+    display: block;
+    line-height: normal;
+    width: 251px;
 }
 
 .texte-desc {
@@ -25,6 +35,12 @@ h4 {
     font-weight: 400;
     font-style: normal;
     font-size: var(--l);
+    margin-bottom: 0;
+    transform: translateY(-50px);
+}
+
+.home__vignette-sup {
+    transform: translateY(-40px);
 }
 
 
