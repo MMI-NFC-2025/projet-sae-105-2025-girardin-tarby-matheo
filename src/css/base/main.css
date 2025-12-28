@@ -111,8 +111,7 @@ h1 {
     margin-right: 30%;
 }
 
-.contact__presentation-text,
-.contact__presentation-link {
+.contact__presentation-text {
     color: var(--light-purple);
     font-family: Lato;
     font-size: var(--m);
@@ -120,6 +119,14 @@ h1 {
     font-weight: 400;
     margin-left: var(--margin-2);
     margin-right: var(--margin-2);
+}
+
+.contact__presentation-link {
+    color: var(--light-purple);
+        font-family: Lato;
+        font-size: var(--m);
+        font-style: normal;
+        font-weight: 400;
 }
 
 .contact__form {
@@ -131,3 +138,38 @@ h1 {
     margin-right: var(--margin-2);
 }
 
+.films__vignette-tt {
+    display: block;
+    background-color: var(--light-purple);
+    margin-bottom: var(--margin-1);
+    width: 85%;
+    margin-left: var(--margin-1);
+    margin-top: 0;
+}
+
+.films__vignette-titre {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 8px;
+}
+
+.films__vignette-txt {
+    margin: 0;
+    padding: 8px;
+    color: var(--white);
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.films__vignette-link,
+h3 {
+    color: var(--white);
+    font-family: Lato;
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

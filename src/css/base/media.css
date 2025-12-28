@@ -11,3 +11,13 @@
     position: relative;
     margin-left: var(--margin-1);
 }
+
+.films__vignette-img {
+    width: 85%;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-left: var(--margin-1);
+    margin-bottom: 0;
+    margin-top: var(--margin-1);
+}
