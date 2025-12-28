@@ -1,4 +1,5 @@
-.home__img-hero {
+.home__img-hero,
+.lise__img-hero {
     width: 100%;
     height: auto;
     display: block;
