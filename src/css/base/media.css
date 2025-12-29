@@ -22,3 +22,9 @@
     margin-bottom: 0;
     margin-top: var(--margin-1);
 }
+
+.lise__img {
+    width: 85%;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+}

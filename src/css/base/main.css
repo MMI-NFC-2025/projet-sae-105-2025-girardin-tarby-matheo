@@ -52,12 +52,13 @@ h1 {
     line-height: normal;
     color: var(--light-purple);
     display: flex;
-    width: 343px;
+    width: 85%;
     height: auto;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: var(--margin-3);
     margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
 }
 
 .contact__label {
@@ -123,10 +124,10 @@ h1 {
 
 .contact__presentation-link {
     color: var(--light-purple);
-        font-family: Lato;
-        font-size: var(--m);
-        font-style: normal;
-        font-weight: 400;
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 400;
 }
 
 .contact__form {
@@ -172,4 +173,65 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+h5 {
+    color: var(--black);
+    font-family: Lato;
+    font-size: var(--s);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: var(--margin-1);
+    margin-top: 0;
+}
+
+h2 {
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 600;
+    line-height: auto;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+    margin-bottom: var(--margin-3);
+}
+
+.lise__txt {
+    margin-top: var(--margin-3);
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+}
+
+h6 {
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--s);
+    font-style: normal;
+    font-weight: 400;
+    line-height: auto;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+    margin-top: 0;
+    margin-bottom: var(--margin-2);
+}
+
+cite {
+    display: block;
+    color: var(--light-purple);
+    font-family: MonteCarlo;
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+    width: 85%;
 }
