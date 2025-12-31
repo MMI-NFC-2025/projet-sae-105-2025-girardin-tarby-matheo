@@ -1,5 +1,5 @@
 .home__img-hero,
-.lise__img-hero {
+.articles__img-hero {
     width: 100%;
     height: auto;
     display: block;
@@ -23,7 +23,7 @@
     margin-top: var(--margin-1);
 }
 
-.lise__img {
+.articles__img {
     width: 85%;
     margin-left: var(--margin-1);
     margin-right: var(--margin-1);
