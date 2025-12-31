@@ -22,6 +22,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    height: 100%;
     z-index: 1000;
     transform: translateY(-100%);
     transition: transform 0.3s ease-out;
@@ -55,6 +56,7 @@
     margin-right: var(--margin-2);
     font-family: Playfair Display, serif;
     font-size: var(--xxl);
+    margin-bottom: 200px;
 }
 
 .menu__item {
