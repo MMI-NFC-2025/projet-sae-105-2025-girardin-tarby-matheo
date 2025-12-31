@@ -302,3 +302,27 @@ cite {
     background-color: var(--dark-purple);
     padding-bottom: 100%;
 }
+
+.glossaire__titre {
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+}
+
+.glossaire__def {
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+}
