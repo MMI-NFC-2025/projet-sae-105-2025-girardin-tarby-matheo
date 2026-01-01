@@ -418,3 +418,32 @@ h4 {
     margin-bottom: var(--margin-2);
 }
 
+.film__link {
+    display: block;
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 400;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+    margin-bottom: var(--margin-1);
+}
+
+.film_galerie-btn {
+    display: block;
+    background-color: var(--dark-purple);
+    width: 60%;
+    padding-top: var(--margin-2);
+    padding-bottom: var(--margin-2);
+    text-align: center;
+    color: var(--white);
+    font-family: Lato;
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}

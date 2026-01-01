@@ -41,3 +41,13 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.film__img {
+    width: 85%;
+    margin-left: var(--margin-1);
+}
+
+.film__video {
+    width: 85%;
+    margin-left: var(--margin-1);
+}
