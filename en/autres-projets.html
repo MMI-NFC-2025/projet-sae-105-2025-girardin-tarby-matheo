@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <script type="module" src="../src/js/script.js"></script>
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <a href="/en/index.html">
+                    <img src="/assets/icon/logo.svg" alt="Logo">
+                </a>
+            </div>
+            <div class="header__langue">
+
+                <a href="/fr/autres-projets.html">
+                    <img src="/assets/icon/fr.svg" alt="Navigate to the English version">
+                </a>
+            </div>
+            <div class="header__menu">
+                <button id="menuButton" type="button" aria-expanded="false" aria-controls="mainNav"
+                    aria-label="Ouvrir le menu">
+                    <img src="/assets/icon/menu.svg" alt="Bouton Menu">
+                </button>
+            </div>
+        </div>
+
+        <!-- MENU -->
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <div class="menu__header">
+                <a class="menu__logo" href="/en/index.html">
+                    <img src="/assets/icon/logo.svg" alt="Logo">
+                </a>
+                <a class="langueMenu" href="/fr/">
+                    <img src="/assets/icon/fr.svg" alt="Navigation vers la version française">
+                </a>
+                <button id="menuClose" class="menu__close" type="button" aria-label="Fermer le menu">
+                    <img src="/assets/icon/croixdesortiemenu.svg" alt="Fermer">
+                </button>
+            </div>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/lise.html">Lise Meitner</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/matilda.html">The Matilda effect</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/theorie.html">The theory of Lise Meitner</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/litterature.html">Women of science in literature</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/film.html">Film of rehabilitation of forgotten female
+                        figures</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Other projects
+        </h1>
+        <p class="autres-projets__texte-intro">
+            Discover below the other projects of MMi students from Montbéliard.
+        </p>
+        <div class="carousel-wrapper">
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                    <img src="/assets/icon/arrow2.svg" alt="fleche gauche" />
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                    <img src="/assets/icon/arrow1.svg" alt="fleche droite" />
+                </button>
+            </div>
+            <div class="carousel__container" role="region" aria-live="polite">
+                <div class="carousel__item">
+                    <img class="img__caroussel" src="/assets/image/autres-projets-01.avif" alt="Image musique 1" />
+                    <a class="autres-projets__vignette-titre" href="">Jocelyn Bell</a>
+                </div>
+                <div class="carousel__item">
+                    <img class="img__caroussel" src="/assets/image/autres-projets-02.avif" alt="Image musique 2" />
+                    <a class="autres-projets__vignette-titre" href="">Margaret Hamilton</a>
+                </div>
+                <div class="carousel__item">
+                    <img class="img__caroussel" src="/assets/image/autres-projets-03.avif" alt="Image musique 3" />
+                    <a class="autres-projets__vignette-titre" href="">Rosalind Franklin</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__top">
+                <div class="footer__presentation-text">
+                    <p>Mathéo Girardin Tarby <br> MMI 1 Groupe 1</p>
+                </div>
+                <div class="footer__top--left">
+                    <a href="/fr/index.html">
+                        <img src="/assets/icon/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <a class="footer__mailto" href="mailto:matheo.girardin--tarby@edu.univ-fcomte.fr">
+                matheo.girardin--tarby@edu.univ-fcomte.fr
+            </a>
+            <ul class="footer__link">
+                <li><a class="footer__item-link" href="/en/a-propos.html">About</a></li>
+                <li><a class="footer__item-link clique" href="/en/autres-projets.html">Other projects</a></li>
+                <li><a class="footer__item-link" href="/en/glossaire.html">Glossary</a></li>
+            </ul>
+            <div class="footer__credit">
+                <p>
+                    Project carried out in 2025 as part of a pedagogical exercise at the
+                    <a class="footer__link-montbeliard"
+                        href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                        MMi department of Montbéliard
+                    </a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -336,3 +336,84 @@ cite {
     font-weight: 600;
     line-height: normal;
 }
+
+.carousel-wrapper {
+    position: relative;
+}
+
+.carousel__controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.carousel__button {
+    width: 30px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--light-purple);
+    opacity: 70%;
+    border: 2px solid var(--light-purple);
+    cursor: pointer;
+    pointer-events: auto;
+    transition: background-color 0.3s ease;
+}
+
+.carousel__button:hover {
+    background: rgba(194, 178, 208, 1);
+}
+
+.carousel__container {
+    display: flex;
+    gap: 0;
+    overflow: scroll;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+}
+
+.carousel__container::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel__item {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.autres-projets__vignette-titre {
+    color: var(--yellow);
+    font-family: "Playfair Display";
+    font-size: var(--xl);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: var(--light-purple);
+    padding: var(--margin-2);
+    margin-bottom: var(--margin-2);
+    display: block;
+    text-align: center;
+}
+
+.autres-projets__texte-intro {
+    color: var(--light-purple);
+    font-family: Lato;
+    font-size: var(--m);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: var(--margin-1);
+    margin-right: var(--margin-1);
+}
