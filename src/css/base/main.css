@@ -448,11 +448,9 @@ h4 {
     margin-right: 15%;
 }
 
-
-
 .frise {
     position: relative;
-    width: 90%;
+    width: 92%;
     margin-left: var(--margin-3);
     margin-right: var(--margin-3);
     margin-bottom: var(--margin-1);
@@ -462,7 +460,7 @@ h4 {
     position: absolute;
     top: 0;
     left: 140px;
-    transform: translateX(-488%);
+    transform: translateX(-500%);
     height: 101%;
     pointer-events: none;
     z-index: 0;
