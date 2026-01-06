@@ -1,37 +1,27 @@
+img {
+    max-width: 100%;
+}
+
 .home__img-hero,
 .articles__img-hero {
-    width: 100%;
-    height: auto;
     display: block;
 }
 
 .home__vignette-img {
-    width: 85%;
-    height: auto;
     display: block;
     position: relative;
-    margin-left: var(--margin-1);
 }
 
 .films__vignette-img {
-    width: 85%;
     height: auto;
     display: block;
     position: relative;
-    margin-left: var(--margin-1);
     margin-bottom: 0;
     margin-top: var(--margin-1);
 }
 
-.articles__img {
-    width: 85%;
-    margin-left: var(--margin-1);
-    margin-right: var(--margin-1);
-}
-
 .carousel__item img {
     display: block;
-    width: 100%;
     height: auto;
 }
 
@@ -40,14 +30,4 @@
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
-}
-
-.film__img {
-    width: 85%;
-    margin-left: var(--margin-1);
-}
-
-.film__video {
-    width: 85%;
-    margin-left: var(--margin-1);
 }

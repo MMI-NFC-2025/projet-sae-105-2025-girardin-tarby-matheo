@@ -10,13 +10,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/style.css">
     <script type="module" src="../src/js/script.js"></script>
-    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -73,49 +73,53 @@
         </nav>
     </header>
     <main>
-        <h1 class="contact__titre">
-            À propos
-        </h1>
-        <div class="contact__presentation">
-            <p class="contact__presentation-text">
-                Bienvenue sur ce site dédié à Lise Meitner, à l’effet Matilda et aux femmes de science trop souvent
-                oubliées. Je
-                m’appelle Mathéo Girardin Tarby, étudiant en première année en <a class="contact__presentation-link"
-                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">BUT MMi à
-                    Montbéliard.</a>
-                <br><br>
-                À travers ce projet, je souhaite mettre en lumière celles dont les découvertes ont marqué notre monde,
-                mais dont les
-                noms ont été effacés ou ignorés.
-                <br><br>
-                Vous trouverez ici des articles accessibles, documentés et engagés, qui mêlent biographie, analyse
-                historique et culture
-                populaire. Mon objectif est simple : faire connaître ces figures inspirantes, et contribuer à une
-                représentation plus
-                juste dans les récits scientifiques.
-                <br><br>
-                Merci de votre visite, et n’hésitez pas à me contacter pour échanger ou proposer des idées ci-dessous !
-            </p>
+        <div class="main__margin">
+            <h1 class="contact__titre">
+                À propos
+            </h1>
+            <div class="contact__presentation">
+                <p class="contact__presentation-text">
+                    Bienvenue sur ce site dédié à Lise Meitner, à l’effet Matilda et aux femmes de science trop souvent
+                    oubliées. Je
+                    m’appelle Mathéo Girardin Tarby, étudiant en première année en <a class="contact__presentation-link"
+                        href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">BUT MMi à
+                        Montbéliard.</a>
+                    <br><br>
+                    À travers ce projet, je souhaite mettre en lumière celles dont les découvertes ont marqué notre
+                    monde,
+                    mais dont les
+                    noms ont été effacés ou ignorés.
+                    <br><br>
+                    Vous trouverez ici des articles accessibles, documentés et engagés, qui mêlent biographie, analyse
+                    historique et culture
+                    populaire. Mon objectif est simple : faire connaître ces figures inspirantes, et contribuer à une
+                    représentation plus
+                    juste dans les récits scientifiques.
+                    <br><br>
+                    Merci de votre visite, et n’hésitez pas à me contacter pour échanger ou proposer des idées
+                    ci-dessous !
+                </p>
+            </div>
+            <form class="contact__form">
+                <div class="contact__firstname-wrapper">
+                    <label for="firstname" class="contact__label">Prénom</label><br>
+                    <input type="text" id="firstname" class="contact__input">
+                </div>
+                <div class="contact__lastname-wrapper">
+                    <label for="lastname" class="contact__label">Nom</label><br>
+                    <input type="text" id="lastname" class="contact__input">
+                </div>
+                <div class="contact__email-wrapper">
+                    <label for="email" class="contact__label">E-mail</label><br>
+                    <input type="text" id="email" class="contact__input">
+                </div>
+                <div class="contact__message-wrapper">
+                    <label for="message" class="contact__label">Message</label><br>
+                    <input type="text" id="message" class="contact__input4">
+                </div>
+                <button class="contact__submit-btn" type="submit">Envoyer</button>
+            </form>
         </div>
-        <form class="contact__form">
-            <div class="contact__firstname-wrapper">
-                <label for="firstname" class="contact__label">Prénom</label><br>
-                <input type="text" id="firstname" class="contact__input">
-            </div>
-            <div class="contact__lastname-wrapper">
-                <label for="lastname" class="contact__label">Nom</label><br>
-                <input type="text" id="lastname" class="contact__input">
-            </div>
-            <div class="contact__email-wrapper">
-                <label for="email" class="contact__label">E-mail</label><br>
-                <input type="text" id="email" class="contact__input">
-            </div>
-            <div class="contact__message-wrapper">
-                <label for="message" class="contact__label">Message</label><br>
-                <input type="text" id="message" class="contact__input4">
-            </div>
-            <button class="contact__submit-btn" type="submit">Envoyer</button>
-        </form>
     </main>
     <footer>
         <div class="footer">

@@ -10,13 +10,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/style.css">
     <script type="module" src="../src/js/script.js"></script>
-    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                 </a>
             </div>
             <div class="header__langue">
-    
+
                 <a href="/fr/a-propos.html">
                     <img src="/assets/icon/fr.svg" alt="Navigate to the English version">
                 </a>
@@ -40,7 +40,7 @@
                 </button>
             </div>
         </div>
-    
+
         <!-- MENU -->
         <nav class="menu" id="mainNav" aria-hidden="true">
             <div class="menu__header">
@@ -74,44 +74,51 @@
         </nav>
     </header>
     <main>
-        <h1 class="contact__titre">
-            About
-        </h1>
-        <div class="contact__presentation">
-            <p class="contact__presentation-text">
-                Welcome to this site dedicated to Lise Meitner, to the Matilda effect and to all too often forgotten women of science.
-                My name is Mathéo Girardin Tarby, a first-year student in <a class="contact__presentation-link"
-                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">BUT MMi at Montbéliard.</a> 
-                <br><br>
-                Through this project, I wish to highlight those whose discoveries have marked our world, but whose names have been
-                erased or ignored.
-                <br><br>
-                You will find here accessible, documented and committed articles that combine biography, historical analysis and popular
-                culture. My goal is simple: to make these inspiring figures known, and contribute to a fairer representation in
-                scientific narratives.
-                <br><br>
-                Thank you for your visit, and do not hesitate to contact me to discuss or propose ideas below! 
-            </p>
+        <div class="main__margin">
+            <h1 class="contact__titre">
+                About
+            </h1>
+            <div class="contact__presentation">
+                <p class="contact__presentation-text">
+                    Welcome to this site dedicated to Lise Meitner, to the Matilda effect and to all too often forgotten
+                    women of science.
+                    My name is Mathéo Girardin Tarby, a first-year student in <a class="contact__presentation-link"
+                        href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">BUT MMi
+                        at Montbéliard.</a>
+                    <br><br>
+                    Through this project, I wish to highlight those whose discoveries have marked our world, but whose
+                    names have been
+                    erased or ignored.
+                    <br><br>
+                    You will find here accessible, documented and committed articles that combine biography, historical
+                    analysis and popular
+                    culture. My goal is simple: to make these inspiring figures known, and contribute to a fairer
+                    representation in
+                    scientific narratives.
+                    <br><br>
+                    Thank you for your visit, and do not hesitate to contact me to discuss or propose ideas below!
+                </p>
+            </div>
+            <form class="contact__form">
+                <div class="contact__firstname-wrapper">
+                    <label for="firstname" class="contact__label">First name</label><br>
+                    <input type="text" id="firstname" class="contact__input">
+                </div>
+                <div class="contact__lastname-wrapper">
+                    <label for="lastname" class="contact__label">Name</label><br>
+                    <input type="text" id="lastname" class="contact__input">
+                </div>
+                <div class="contact__email-wrapper">
+                    <label for="email" class="contact__label">E-mail</label><br>
+                    <input type="text" id="email" class="contact__input">
+                </div>
+                <div class="contact__message-wrapper">
+                    <label for="message" class="contact__label">Your Message</label><br>
+                    <input type="text" id="message" class="contact__input4">
+                </div>
+                <button class="contact__submit-btn" type="submit">Send</button>
+            </form>
         </div>
-        <form class="contact__form">
-            <div class="contact__firstname-wrapper">
-                <label for="firstname" class="contact__label">First name</label><br>
-                <input type="text" id="firstname" class="contact__input">
-            </div>
-            <div class="contact__lastname-wrapper">
-                <label for="lastname" class="contact__label">Name</label><br>
-                <input type="text" id="lastname" class="contact__input">
-            </div>
-            <div class="contact__email-wrapper">
-                <label for="email" class="contact__label">E-mail</label><br>
-                <input type="text" id="email" class="contact__input">
-            </div>
-            <div class="contact__message-wrapper">
-                <label for="message" class="contact__label">Your Message</label><br>
-                <input type="text" id="message" class="contact__input4">
-            </div>
-            <button class="contact__submit-btn" type="submit">Send</button>
-        </form>
     </main>
     <footer>
         <div class="footer">
