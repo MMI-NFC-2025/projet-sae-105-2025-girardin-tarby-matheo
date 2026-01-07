@@ -331,7 +331,7 @@ cite {
     line-height: normal;
     background-color: var(--light-purple);
     padding: var(--margin-2);
-    margin-bottom: var(--margin-2);
+    margin-bottom: 50px;
     display: block;
     text-align: center;
     margin-top: 0;
@@ -344,6 +344,11 @@ cite {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: var(--margin-1);
+}
+
+.autres-projets__vignette-titre {
+    text-decoration: none;
 }
 
 h1 {
